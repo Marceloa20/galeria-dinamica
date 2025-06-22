@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Inicio do Cabeçalho -->
+    <header id="header" class="header">
+        <h1 class="header-title">Galeria de Imagens Dinâmica</h1>
+    </header>
+    <!-- Fim do Cabeçalho -->
+
+    <!-- Inicio conteudo principal -->
+    <main id="container" class="container">
+        <!-- Inicio imagem principal -->
+        <section id="container-main-image" class="container-main-image">
+            <img src="https://placehold.co/800x400/png" alt="Imagem Principal" class="main-image" id="main-image">
+        </section>
+        <!-- Fim imagem principal -->
+
+        <!-- Inicio miniaturas -->
+        <section id="container-miniaturas" class="container-miniaturas">
+            <!-- <img src="https://placehold.co/100x75/png" alt="" id="miniatura" class="miniatura">
+            <img src="https://placehold.co/100x75/png" alt="" id="miniatura" class="miniatura">
+            <img src="https://placehold.co/100x75/png" alt="" id="miniatura" class="miniatura"> -->
+        </section>
+        <!-- Fim miniaturas -->
+
+        <!-- Inicio inputs -->
+        <section id="container-inputs" class="container-inputs">
+            <label for="url">
+                Digite sua URL
+                <input 
+                    type="text" 
+                    name="url" 
+                    id="url"
+                    placeholder="https://www.minhaimagem.com/..."
+                >                
+            </label>
+            <button id="btn-add" class="btn">Adicionar Imagem</button>
+            <button id="btn-remove" class="btn">Remover Última Imagem</button>
+        </section>
+        <!-- Fim inputs -->
+    </main>
+    <!-- Fim conteudo principal -->
+
+    <!-- Inicio Rodapé -->
+    <footer class="footer">
+        <p>&copy; 2025 Minha Galeria. Todos os direitos reservados.</p>
+    </footer>
+    <!-- Fim Rodapé -->
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
